@@ -1,7 +1,7 @@
 import axios from "axios";
 import { store } from "../redux/store";
 
-const baseURL = "http://localhost:5000/api/";
+const baseURL = "https://movie-review-backend-chi.vercel.app/api/";
 
 const API = axios.create({
 	baseURL,
